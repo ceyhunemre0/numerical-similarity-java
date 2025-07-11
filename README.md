@@ -56,6 +56,12 @@ open correlation.png  # (macOS kullanıcıları için)
 
 Alternatif: [Graphviz Online Viewer](https://dreampuf.github.io/GraphvizOnline/)
 
+### Örnek Görsel
+
+Aşağıda, oluşturulan `correlation.png` dosyasının örnek bir görünümü yer almaktadır:
+
+![correlation.png](correlation.png)
+
 ---
 
 ## 📊 Örnek Çıktılar
