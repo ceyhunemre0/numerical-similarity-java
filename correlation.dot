@@ -1,0 +1,17 @@
+graph G {
+  Tamsayi1;
+  Tamsayi2;
+  GaussianTamsayi1;
+  GaussianReelsayi1;
+  GaussianReelsayi2;
+  Tamsayi1 -- Tamsayi2 [label="-0,00"];
+  Tamsayi1 -- GaussianTamsayi1 [label="-0,01"];
+  Tamsayi1 -- GaussianReelsayi1 [label="-0,01"];
+  Tamsayi1 -- GaussianReelsayi2 [label="-0,02"];
+  Tamsayi2 -- GaussianTamsayi1 [label="0,00"];
+  Tamsayi2 -- GaussianReelsayi1 [label="-0,00"];
+  Tamsayi2 -- GaussianReelsayi2 [label="-0,02"];
+  GaussianTamsayi1 -- GaussianReelsayi1 [label="0,01"];
+  GaussianTamsayi1 -- GaussianReelsayi2 [label="-0,02"];
+  GaussianReelsayi1 -- GaussianReelsayi2 [label="-0,01"];
+}
